@@ -1,0 +1,29 @@
+# Multi-Agent AI Debate Platform - Dependencies
+# Core dependencies (all from standard library - no install needed for basic usage)
+# Python >= 3.8 required
+
+# Optional: OpenAI API integration (for real LLM-powered debates)
+openai>=1.0.0
+
+# Optional: Alternative LLM backends
+# anthropic>=0.20.0       # Claude API
+# google-generativeai     # Gemini API
+# ollama                  # Local LLM via Ollama
+
+# Optional: Enhanced argument analysis
+# spacy>=3.7.0            # NLP-based argument evaluation
+# nltk>=3.8               # Text analysis utilities
+# textstat>=0.7.0         # Readability scoring
+
+# Optional: Web interface (if running local server)
+# flask>=3.0.0            # Web server
+# fastapi>=0.100.0        # API server
+# uvicorn>=0.25.0         # ASGI server
+
+# Optional: Data analysis
+# pandas>=2.0.0           # Data manipulation
+# matplotlib>=3.8.0       # Chart generation (server-side)
+
+# Development
+# pytest>=7.4.0           # Testing
+# black>=23.0.0           # Code formatting
